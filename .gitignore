@@ -1,0 +1,23 @@
+spamsmsdataset/
+creditcardfrauddataset/
+# Environments
+.venv/
+venv/
+env/
+__pycache__/
+
+# Data (Assuming datasets are in these folders)
+*dataset/
+*.csv
+*.parquet
+
+# ML Artifacts (The "Redundant" Files)
+*.joblib
+*.pkl
+*.model
+*.pth
+*.h5
+*.onnx
+
+# System files
+.DS_Store
