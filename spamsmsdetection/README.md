@@ -5,14 +5,14 @@ AI model that classifies SMS messages as **spam** or **legitimate (ham)** using 
 ## Setup
 
 ```bash
-cd /home/lohit-yadav/codsoft/spamsmsdetection
+cd /codsoft/spamsmsdetection
 python3 -m venv .venv
 source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
 ## Dataset
-
+Kaggle dataset url: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 Place your dataset at `spamsmsdataset/spam.csv` with columns:
 - `v1`: label (`ham` or `spam`)
 - `v2`: message text

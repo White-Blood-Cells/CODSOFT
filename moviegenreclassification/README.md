@@ -4,6 +4,7 @@ A machine learning project that predicts the **genre of a movie** from its plot 
 
 ## Dataset
 
+Kaggle dataset link: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
 - **Location:** `Genre Classification Dataset/`
 - **Train:** `train_data.txt` — format: `ID ::: TITLE ::: GENRE ::: DESCRIPTION`
 - **Test:** `test_data.txt` (no labels), `test_data_solution.txt` (with labels for evaluation)
@@ -13,7 +14,7 @@ The model uses **title + description** as the input text for each movie.
 ## Setup
 
 ```bash
-cd /home/lohit-yadav/codsoft/moviegenreclassification
+cd /codsoft/moviegenreclassification
 pip install -r requirements.txt
 ```
 

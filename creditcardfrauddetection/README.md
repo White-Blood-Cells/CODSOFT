@@ -5,7 +5,7 @@ Binary classification of credit card transactions as **fraudulent** or **legitim
 ## Setup
 
 ```bash
-cd /home/lohit-yadav/codsoft/creditcardfrauddetection
+cd /codsoft/creditcardfrauddetection
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -13,6 +13,7 @@ pip install -r requirements.txt
 
 ## Data
 
+Kaggle dataset link: https://www.kaggle.com/datasets/kartik2112/fraud-detection
 - **Train:** `creditcardfrauddataset/fraudTrain.csv`
 - **Test:** `creditcardfrauddataset/fraudTest.csv`
 

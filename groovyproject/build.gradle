@@ -1,0 +1,20 @@
+plugins {
+id 'application'
+}
+application {
+mainClass = 'com.example.AdditionOperation'
+}
+repositories {
+mavenCentral()
+}
+dependencies {
+testImplementation 'junit:junit:4.13.2'
+}
+test {
+outputs.upToDateWhen { false }
+testLogging {
+events "passed", "failed", "skipped"
+exceptionFormat "full"
+showStandardStreams = true
+}
+}
